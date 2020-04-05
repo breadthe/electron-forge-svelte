@@ -1,6 +1,6 @@
-# Electron Forge + Svelte  Starter
+# Electron Forge + Svelte + TailwindCSS + PurgeCSS + SCSS  Starter
 
-Get up and running with 💪 Svelte & ⚡ Electron. 
+Get up and running with 💪 Svelte & ⚡ Electron, with TailwindCSS, PurgeCSS, and SCSS support.
 
 ## Usage
 
