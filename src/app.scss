@@ -1,0 +1,34 @@
+@import "~tailwindcss/base";
+
+@import "./_custom";
+
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+
+body {
+    @apply bg-gray-100;
+}
+
+main {
+    @apply text-center;
+    @apply mx-auto;
+    @apply p-8;
+}
+
+a {
+    color: blue;
+}
+
+h1 {
+    color: #ff3e00;
+    @apply uppercase;
+    @apply text-4xl;
+    @apply font-thin;
+}
+
+@media (min-width: 640px) {
+    main {
+        max-width: none;
+    }
+}

@@ -1,0 +1,11 @@
+button {
+    @apply bg-indigo-600;
+    @apply text-white;
+    @apply px-2 py-1;
+    @apply rounded;
+
+    &:hover {
+        @apply bg-indigo-900;
+        @apply text-indigo-100;
+    }
+}
