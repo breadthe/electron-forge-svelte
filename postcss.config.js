@@ -1,11 +1,13 @@
 const production = !process.env.ROLLUP_WATCH;
 const purgecss = require("@fullhuman/postcss-purgecss");
+const tailwindcss = require('tailwindcss');
 
 module.exports = {
     plugins: [
         require("postcss-import")(),
         require("tailwindcss"),
         require("autoprefixer"),
+        tailwindcss('./tailwind.config.js'),
         // Only purge css on production
         production &&
         purgecss({

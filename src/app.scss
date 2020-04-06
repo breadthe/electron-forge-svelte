@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Merriweather');
+
 @import "~tailwindcss/base";
 
 @import "./_custom";
@@ -22,6 +24,7 @@ a {
 
 h1 {
     color: #ff3e00;
+    @apply font-serif;
     @apply uppercase;
     @apply text-4xl;
     @apply font-thin;
