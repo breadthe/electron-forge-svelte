@@ -16,7 +16,7 @@ yarn start
 
 ## Troubleshooting
 
-If `yarn start` refuses to start the Electron app, stop it and run `yarn electron-forge start`. This should "reset" the build process. Afterwards you should be able to start it with `yarn start`.
+Sometimes when starting a fresh build, or after adding a new package with yarn/npm, if `yarn start` refuses to start the Electron app, stop it and run `yarn electron-forge start`. This should "reset" the build process. Afterwards you should be able to start it with `yarn start`.
 
 ## Notes
 
