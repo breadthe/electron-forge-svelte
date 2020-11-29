@@ -59,10 +59,10 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@rollup/plugin-commonjs": "^11.0.0",
     "@rollup/plugin-node-resolve": "^7.0.0",
-    "autoprefixer": "^9.7.5",
+    "autoprefixer": "^9",
     "concurrently": "^5.1.0",
     "electron": "8.0.2",
-    "postcss": "^7.0.27",
+    "postcss": "^7",
     "postcss-import": "^12.0.1",
     "rollup": "^1.32.0",
     "rollup-plugin-livereload": "^1.0.0",
@@ -71,6 +71,6 @@
     "rollup-plugin-terser": "^5.1.2",
     "sass": "^1.29.0",
     "svelte": "^3.19.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
