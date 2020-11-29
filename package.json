@@ -47,7 +47,7 @@
   "dependencies": {
     "electron-reload": "^1.5.0",
     "electron-squirrel-startup": "^1.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "sirv-cli": "^0.4.4"
   },
   "devDependencies": {
@@ -69,6 +69,7 @@
     "rollup-plugin-postcss": "^2.5.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^5.1.2",
+    "sass": "^1.29.0",
     "svelte": "^3.19.1",
     "tailwindcss": "^1.2.0"
   }
